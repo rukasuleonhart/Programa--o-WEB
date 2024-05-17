@@ -1,0 +1,54 @@
+/*
+* Curso de Engenharia de Software - UniEVANGÉLICA 
+* Disciplina de Programação Web 
+* Dev: Lucas de Oliveira Santos Soares
+* 16/05/2024
+*/ 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Contato</title>
+  <!-- Incluindo TailwindCSS via CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-6">
+  <!-- Container principal do formulário -->
+  <div class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
+    <!-- Título do formulário -->
+    <h2 class="text-2xl font-bold mb-6 text-gray-800">Formulário de Contato</h2>
+    <!-- Formulário -->
+    <form action="#" method="POST">
+      <!-- Campo para o nome -->
+      <div class="mb-4">
+        <!-- Rótulo para o campo de nome -->
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Nome</label>
+        <!-- Campo de entrada de texto para o nome -->
+        <input type="text" id="name" name="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Seu nome">
+      </div>
+      <!-- Campo para o email -->
+      <div class="mb-4">
+        <!-- Rótulo para o campo de email -->
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
+        <!-- Campo de entrada de texto para o email -->
+        <input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Seu email">
+      </div>
+      <!-- Campo para a mensagem -->
+      <div class="mb-4">
+        <!-- Rótulo para o campo de mensagem -->
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="message">Mensagem</label>
+        <!-- Área de texto para a mensagem -->
+        <textarea id="message" name="message" rows="4" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Sua mensagem"></textarea>
+      </div>
+      <!-- Botão de envio -->
+      <div class="flex items-center justify-between">
+        <!-- Botão estilizado -->
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">Enviar</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
+
