@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+  }
+  
+  li.completed span {
+    text-decoration: line-through;
+  }
+  
